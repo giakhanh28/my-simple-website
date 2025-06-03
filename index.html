@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Trang web đầu tiên trên Render</title>
-  <style>
-    body {
-      font-family: Arial;
-      background-color: #f0f0f0;
-      text-align: center;
-      padding-top: 100px;
-    }
-  </style>
+  <title>Salon Ô Tô ABC</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>🎉 Xin chào từ Render!</h1>
-  <p>Website này được triển khai miễn phí!</p>
+  <header>
+    <h1>🚗 GiaKhanh Car</h1>
+    <p>Chuyên bán xe chất lượng cao</p>
+  </header>
+
+  <main>
+    <section class="car-list">
+      <div class="car-card">
+        <img src="images/car1.jpg" alt="Xe Toyota Camry">
+        <h2>Toyota Camry 2022</h2>
+        <p>Giá: 980 triệu VNĐ</p>
+        <button onclick="buyNow('Toyota Camry')">Mua ngay</button>
+      </div>
+
+      <div class="car-card">
+        <img src="images/car2.jpg" alt="Xe Honda Civic">
+        <h2>Honda Civic 2023</h2>
+        <p>Giá: 860 triệu VNĐ</p>
+        <button onclick="buyNow('Honda Civic')">Mua ngay</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GiaKhanh Car. Liên hệ: 0909-123-456</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
+
